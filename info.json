@@ -1,0 +1,26 @@
+{
+    "manufacturer": "andrewmoscoe",
+    "keyboard_name": "fc980M_bluepill2",
+    "maintainer": "andrewmoscoe",
+    "bootloader": "stm32duino",
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["A8","B12","B13","B8","B7","A6","B10","A1","A5","B11","B1","B9","A15","B3","B14","B15"],
+        "rows": ["A2","B5","B0","B4","A4","B6","A3","A7"]
+    },
+    "processor": "STM32F103",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    }
+}
